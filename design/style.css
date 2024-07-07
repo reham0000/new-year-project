@@ -137,7 +137,6 @@ body{
 .hotel-container{
     width: 1320px;
     height: 482px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 50px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
@@ -165,4 +164,68 @@ body{
 }
 .join-btn{
     color: white;
+}
+
+.offer-container{
+    width: 1320px;
+    height: 463px;
+    left: 140px;
+    right: 140px;
+    top: 3018px;
+    margin-top: 50px; 
+    bottom: 3854px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex; 
+      
+}
+.offer-content{
+    padding: 50px;
+    margin-top: 100px;   
+}
+.offer-content h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.offer-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.offer-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.offer-img img{
+    width: 350px;
+    margin-top: 60px;
+    margin-right: 150px;
+    margin-left: 20px;
+    border: 10px solid red;
+    border-radius: 50% ;
+    padding: 15px;
+    
+}
+.happy{
+        padding: 50px;
+        margin-top: 60px;      
+}
+.happy h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 10px;
+}
+.happy p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
 }
