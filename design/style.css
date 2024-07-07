@@ -30,7 +30,7 @@ body{
     height: 600px;
 }
 .banner-content h4,h1{
-    color: white;  
+    color: pink;  
 }
 .banner-content h4{
     font-size: 25px;
@@ -78,4 +78,59 @@ body{
 .image-container img{
     height: 100%;
     width: 100%;
+}
+.party-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.left-content{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.right-content{
+    width: 50%;
+    height: 600px;
+}
+.grp-img{
+    margin-top: 110px ;
+    margin-left: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.left-content h2{
+    color: white;
+    font-size: 64px;
+    font-weight: 900;
+    word-spacing: 10px;
+}
+.left-content p{
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+#party-btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
 }
